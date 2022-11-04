@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth; 
+    /* this is how u get the page to scroll on those a href links! */
+}
+
+#container {
+    display: flex;
+    height: 3500px;
+}
+
+#left {
+    position: sticky;
+    top: 0px;
+    background-color: darkolivegreen;
+    height: 100vh;
+    width: 20%;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+}
+
+#avatar {
+    height: 250px;
+    /* border: 5px solid black; */
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+
+nav ul {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+}
+
+nav li {
+    font-size: 25px;
+    padding: 20px
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all .5s ease;
+    
+}
+
+nav a:hover {
+    /* background-color: white; */
+    color: black;
+    /* box-shadow: 0 0 10px black; */
+    /* border: 2.5px solid black; */
+    font-size: 30px;
+}
+
+#connect {
+    position: relative;
+    left: 80px;
+    top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+#connect i {
+    color: white;
+    font-size: 30px;
+    transition: all .5s ease;
+}
+
+#connect i:hover {
+    color: black;
+    font-size: 40px;
+}
+
+#right {
+    width: 80%;
+    /* background-color: #dae6f2 */
+    background-color: lightcyan;
+
+}
+
+#content {
+    padding: 100px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#name {
+    font-size: 60px;
+    color: darkred;
+}
+
+#about p {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+i {
+    color: darkslateblue;
+    padding: 5px;
+    
+}
+
+#projects {
+    margin-top: 250px;
+}
+
+#projects h1 {
+    font-size: 40px;
+    color: darkred;
+}
+
+#projects h2 {
+    margin-top: 25px;
+}
+
+#project1 img {
+    margin-top: 10px;
+    height: 250px;
+    width: 450px;
+    border: 5px solid white;
+}
+
+#projects p {
+    font-size: 20px;
+}
+
+#project1 a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#education {
+    margin-top: 250px;
+}
+
+#education h1 {
+    font-size: 40px;
+    color: darkred;
+}
+
+#education h2 {
+    margin-top: 30px;
+}
+
+#education h3 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#education p {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#skills {
+    margin-top: 250px;
+}
+
+#skills h1 {
+    font-size: 40px;
+    color: darkred;
+}
+
+#skills ul {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+#skills li {
+    font-size: 20px;
+}
+
