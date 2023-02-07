@@ -1,95 +1,450 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/dc8036b308.js" crossorigin="anonymous"></script>
-    <title>My Portfolio v1</title>
-</head>
-<body>
-    <div id="container">
-    <div id="left">
-        <div id="img">
-            <img src="https://t4.ftcdn.net/jpg/03/86/44/67/360_F_386446765_i47qMuo90lHAqJKb6JKqUFb1DXIsxmuV.jpg" id="avatar">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-            </ul>
+<html>
+  <head>
+    <title>My Portfilio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="index.html">My Portfilio</a></h1>
+        <nav class="links">
+          <ul>
+            <!-- <li><a href="#">Lorem</a></li>
+								<li><a href="#">Ipsum</a></li>
+								<li><a href="#">Feugiat</a></li>
+								<li><a href="#">Tempus</a></li>
+								<li><a href="#">Adipiscing</a></li> -->
+          </ul>
         </nav>
-        <div id="connect">
-            <a href="https://www.linkedin.com/in/quintenkrauth/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/qkrauth" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <i class="fa-solid fa-download"></i>
-        </div>
+        <nav class="main">
+          <ul>
+            <!-- <li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li> -->
+            <li class="menu">
+              <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Menu -->
+      <section id="menu">
+        <!-- Search -->
+        <!-- <section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section> -->
+
+        <!-- Links -->
+        <section>
+          <ul class="links">
+            <li>
+              <a href="#">
+                <h3>Ascend</h3>
+                <p>Click me to go back to the top!</p>
+              </a>
+            </li>
+            <!-- <li>
+										<a href="#">
+											<h3>Dolor sit amet</h3>
+											<p>Sed vitae justo condimentum</p>
+										</a>
+									</li> -->
+            <!-- <li>
+										<a href="#">
+											<h3>Feugiat veroeros</h3>
+											<p>Phasellus sed ultricies mi congue</p>
+										</a>
+									</li> -->
+            <!-- <li>
+										<a href="#">
+											<h3>Etiam sed consequat</h3>
+											<p>Porta lectus amet ultricies</p>
+										</a>
+									</li> -->
+          </ul>
+        </section>
+
+        <!-- Actions -->
+        <section>
+          <!-- <ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul> -->
+        </section>
+      </section>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Post -->
+        <article class="post">
+          <header>
+            <div class="title">
+              <h2><a>About Me</a></h2>
+              <p>What makes my story unique</p>
+            </div>
+            <!-- <div class="meta">
+										<time class="published" datetime="2015-11-01">November 1, 2015</time>
+										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+									</div> -->
+          </header>
+          <a class="image featured"><img src="images/greenery.jpg" alt="" /></a>
+          <p>
+            Welcome! My name is Quinten and I am a grounded and motivated
+            college graduate making a career change into SWE. I am thoroughly
+            enjoying my time in DevMountain's Coding Bootcamp and giving it my
+            full-time effort. The strengths I came to realize during my previous
+            area of work has led me to this new stage in my life. Now I have an
+            outlet where I can let my creative ideas flow. I have a healthy
+            obsession with making things and an even healthier obsession with
+            making things better. I love creating relationships with new people
+            and I feel wherever I go I can make a big impact. Interested? Why
+            not stay and look around.
+          </p>
+          <footer>
+            <ul class="actions">
+              <!-- <li><a href="single.html" class="button large">Continue Reading</a></li> -->
+            </ul>
+            <ul class="stats">
+              <!-- <li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										<li><a href="#" class="icon solid fa-comment">128</a></li> -->
+            </ul>
+          </footer>
+        </article>
+
+        <!-- Post -->
+        <article class="post">
+          <header>
+            <div class="title">
+              <h2><a>Education & Certifications</a></h2>
+              <p>Where did I learn to be a developer</p>
+            </div>
+            <!-- <div class="meta">
+										<time class="published" datetime="2015-10-25">October 25, 2015</time>
+										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+									</div> -->
+          </header>
+          <a class="image featured"
+            ><img src="images/university.jpg" alt=""
+          /></a>
+          <h4>
+            DevMountain Bootcamp of Student Developers (July 2022 - Jan 2023)
+          </h4>
+          <p>
+            Thankfully, I was lucky enough to take part in a wonderful bootcamp
+            from DevMountain. I am finding myself finally picking up on
+            overarching coding principles and concepts. I am especially
+            appreciative of the high level projects we get to work on and the
+            mentors that are there for us.
+          </p>
+          <h4>
+            FreeCodeCamp JavaScript Algorithms & Data Structures (May 2022 - Dec
+            2022)
+          </h4>
+          <p>
+            With JavaScript being one of my primary focuses, the curriculum I am
+            directly working on includes Basic Data Structures, Algorith
+            Scripting, Functional Programming, and Debugging.
+          </p>
+          <h4>
+            Indiana University - Bachelor of Science in Public Affairs (Sep 2016
+            - May 2020)
+          </h4>
+          <h4>Major: Business Management</h4>
+          <h4>Minor: Community / Urban Development</h4>
+          <p>
+            During my time at Indiana University I learned that I can thrive in
+            any learning environment. Failure is part of the process, Take
+            ownership and develop a growth mindset and embrace change. I have
+            also improved on my ability to plan and set meaningful goals.
+          </p>
+          <footer>
+            <ul class="actions">
+              <!-- <li><a href="single.html" class="button large">Continue Reading</a></li> -->
+            </ul>
+            <ul class="stats">
+              <!-- <li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										<li><a href="#" class="icon solid fa-comment">128</a></li> -->
+            </ul>
+          </footer>
+        </article>
+
+        <!-- Post -->
+        <article class="post">
+          <header>
+            <div class="title">
+              <h2><a>Skills & Personality</a></h2>
+              <p>Which areas do I excel in</p>
+            </div>
+            <!-- <div class="meta">
+										<time class="published" datetime="2015-10-22">October 22, 2015</time>
+										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+									</div> -->
+          </header>
+          <a class="image featured"><img src="images/keyboard.jpg" alt="" /></a>
+          <div class="skills">
+            <div class="techskill">
+              <h4>Technical Skills:</h4>
+              <ul>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>NodeJS</li>
+                <li>HTML/CSS</li>
+                <li>PostgreSQL</li>
+                <li>TypeScript</li>
+                <li>Express</li>
+                <li>OAuth/Bcrypt</li>
+                <li>QA Testing/Jest</li>
+                <li>Bootstrap</li>
+                <li>Rollbar</li>
+                <li>Data Structures</li>
+                <li>Bash/Shell</li>
+                <li>Git</li>
+              </ul>
+            </div>
+            <div class="personalskill">
+              <h4>Interpersonal Skills:</h4>
+              <ul>
+                <li>Inclusion</li>
+                <li>Collaboration</li>
+                <li>Listening</li>
+                <li>Brainstorming</li>
+                <li>Detail Oriented</li>
+                <li>Time Management</li>
+                <li>Clear Communication</li>
+                <li>Encouraging</li>
+                <li>Patience</li>
+                <li>Eagerness to Learn</li>
+              </ul>
+            </div>
+          </div>
+          <footer>
+            <ul class="actions">
+              <!-- <li><a href="single.html" class="button large">Continue Reading</a></li> -->
+            </ul>
+            <ul class="stats">
+              <!-- <li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart">28</a></li>
+										<li><a href="#" class="icon solid fa-comment">128</a></li> -->
+            </ul>
+          </footer>
+        </article>
+
+        <!-- Pagination -->
+        <!-- <ul class="actions pagination">
+								<li><a href="" class="disabled button large previous">Previous Page</a></li>
+								<li><a href="#" class="button large next">Next Page</a></li>
+							</ul> -->
+      </div>
+
+      <!-- Sidebar -->
+      <section id="sidebar">
+        <!-- Intro -->
+        <section id="intro">
+          <a href="#" class="logo"><img src="images/alias.jpg" alt="" /></a>
+          <header>
+            <h2>Quinten Krauth</h2>
+            <p>Full-Stack Software Engineer</p>
+          </header>
+        </section>
+
+        <!-- Mini Posts -->
+        <section>
+          <div class="mini-posts">
+            <!-- Mini Post -->
+            <article class="mini-post">
+              <header>
+                <h3>
+                  <a
+                    href="shttps://www.youtube.com/watch?v=eQ4UcOzx3lk"
+                    target="_blank"
+                    >ValAgent Inquiry App</a
+                  >
+                </h3>
+                <!-- <time class="published" datetime="2015-10-20">October 20, 2015</time> -->
+                <p>Virtual Team Building App for a popular online game</p>
+                <a class="author"><img src="images/alias.jpg" alt="" /></a>
+              </header>
+              <a
+                href="https://www.youtube.com/watch?v=eQ4UcOzx3lk"
+                target="_blank"
+                class="image"
+                ><img src="images/p1.png" alt=""
+              /></a>
+            </article>
+
+            <!-- Mini Post -->
+            <article class="mini-post">
+              <header>
+                <h3>
+                  <a
+                    href="https://www.youtube.com/watch?v=7jNYwI2K7EI"
+                    target="_blank"
+                    >Cakes-4-Us App</a
+                  >
+                </h3>
+                <!-- <time class="published" datetime="2015-10-19">October 19, 2015</time> -->
+                <p>A Bakery Style App for ordering Custom Cakes</p>
+                <a class="author"><img src="images/alias.jpg" alt="" /></a>
+              </header>
+              <a
+                href="https://www.youtube.com/watch?v=7jNYwI2K7EI"
+                target="_blank"
+                class="image"
+                ><img src="images/p2.png" alt=""
+              /></a>
+            </article>
+
+            <!-- Mini Post -->
+            <article class="mini-post">
+              <header>
+                <h3>
+                  <a
+                    href="https://www.youtube.com/watch?v=vRLLzupKAww"
+                    target="_blank"
+                    >Curreny Index Tracker App</a
+                  >
+                </h3>
+                <!-- <time class="published" datetime="2015-10-18">October 18, 2015</time> -->
+                <p>An International CurrencyList App with search features</p>
+                <a class="author"><img src="images/alias.jpg" alt="" /></a>
+              </header>
+              <a
+                href="https://www.youtube.com/watch?v=vRLLzupKAww"
+                target="_blank"
+                class="image"
+                ><img src="images/p3.png" alt=""
+              /></a>
+            </article>
+
+            <!-- Mini Post -->
+            <!-- <article class="mini-post">
+											<header>
+												<h3><a href="single.html">Enim nisl veroeros</a></h3>
+												<time class="published" datetime="2015-10-17">October 17, 2015</time>
+												<a href="#" class="author"><img src="images/alias.jpg" alt="" /></a>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic07.jpg" alt="" /></a>
+										</article> -->
+          </div>
+        </section>
+
+        <!-- Posts List -->
+        <!-- <section>
+								<ul class="posts">
+									<li>
+										<article>
+											<header>
+												<h3><a href="single.html">Lorem ipsum fermentum ut nisl vitae</a></h3>
+												<time class="published" datetime="2015-10-20">October 20, 2015</time>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic08.jpg" alt="" /></a>
+										</article>
+									</li>
+									<li>
+										<article>
+											<header>
+												<h3><a href="single.html">Convallis maximus nisl mattis nunc id lorem</a></h3>
+												<time class="published" datetime="2015-10-15">October 15, 2015</time>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic09.jpg" alt="" /></a>
+										</article>
+									</li>
+									<li>
+										<article>
+											<header>
+												<h3><a href="single.html">Euismod amet placerat vivamus porttitor</a></h3>
+												<time class="published" datetime="2015-10-10">October 10, 2015</time>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic10.jpg" alt="" /></a>
+										</article>
+									</li>
+									<li>
+										<article>
+											<header>
+												<h3><a href="single.html">Magna enim accumsan tortor cursus ultricies</a></h3>
+												<time class="published" datetime="2015-10-08">October 8, 2015</time>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic11.jpg" alt="" /></a>
+										</article>
+									</li>
+									<li>
+										<article>
+											<header>
+												<h3><a href="single.html">Congue ullam corper lorem ipsum dolor</a></h3>
+												<time class="published" datetime="2015-10-06">October 7, 2015</time>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+										</article>
+									</li>
+								</ul>
+							</section> -->
+
+        <!-- About -->
+        <section class="blurb">
+          <h2>Current Goal</h2>
+          <p>
+            Full-Stack Software Developer Student currently searching for an
+            Internship/Apprenticeship/Jr Position where I hope to meet great
+            people and increase my skills!
+          </p>
+          <ul class="actions">
+            <!-- <li><a href="#" class="button">Learn More</a></li> -->
+          </ul>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/quintenkrauth/"
+                target="_blank"
+                class="icon brands fa-linkedin"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/qkrauth"
+                target="_blank"
+                class="icon brands fa-github"
+                ><span class="label">Github</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://docs.google.com/document/d/16qwrvb0NSsHj4lQSfNkzmqavoLmmMX7S7Mz5LohxNNA/edit?usp=sharing"
+                target="_blank"
+                class="icon solid fa-file"
+                ><span class="label">Resume</span></a
+              >
+            </li>
+          </ul>
+          <!-- <p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p> -->
+        </section>
+      </section>
     </div>
-    <div id="right">
-         <div id="content">
-            <section id="about">
-                <h1 id="name">Quinten Krauth</h1>
-                <p>Welcome! My name is Quinten and I am a grounded and motivated college graduate making a career change into SWE. I am thoroughly enjoying my time in DevMountain's Coding Bootcamp and giving it my full-time effort. The strengths I came to realize during my previous area of work has led me to this new stage in my life. Now I have an outlet where I can let my creative ideas flow. Think of me as that reliable friend you know you can always count on to pick up the phone. I have a healthy obsession with making things and an even healthier obsession with making things better. I love creating relationships with new people and I feel wherever I go I can make a big impact. Interested? Why not stay and look around.</p>
-                <p><i class="material-icons">email</i>quintenkrauth19@gmail.com</p>
-                <p><i class="material-icons">place</i>Indianapolis, IN</p>
-            </section>
-            <section id="projects">
-                <h1>Projects:</h1>
-                <div id="project1">
-                    <h2>Currency Keeping Web Application</h2>
-                    <img src="images/currency.png"/>
-                    <br>
-                    <p>A concise list keeping web application built using HTML, CSS, JavaScript, Express, and Axios.</p>
-                    <a href="https://www.youtube.com/watch?v=1sz-wDiu4Bg" target="_blank">Video Link</a>
-                </div>
-            </section>
-            <section id="education">
-                <h1>Education:</h1>
-                <h2>DevMountain Student Developers Programs (July 2022 - Current)</h2>
-                <p>I am currently enrolled in the DevMountain bootcamp where the amount of content I am learning every day I could go on forever about. I am finding myself finally picking up on overarching coding principles and concepts. I am especially appreciative of the high level projects we get to work on and the mentors that are there for us.</p>
-                <h3>Coding Basics v.1 Certification (July 2022 - Aug 2022)</h3>
-                <h2>FreeCodeCamp / Independent Learning (May 2022 - Current)</h2>
-                <p>With JavaScript being one of my primary focuses, the curriculum I am directly working on includes  Basic Data Structures, Algorith Scripting, Functional Programming, and Debugging.</p>
-                <h2>Indiana University - Bachelor of Science in Public Affairs (2016 - 2020)</h2>
-                <h3>Major: Business Management</h3>
-                <h3>Minor: Community / Urban Development</h3>
-                <p>During my time at Indiana University I learned that I can thrive in a learning environment. Failure is part of the process, Take ownership and develop a growth mindset and embrace change. I have also improved on my ability to plan and set meaningful goals.</p>
-            </section>
-            <section id="skills">
-                <h1>Technical Skills:</h1>
-                <ul>
-                    <li>HTML/CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node</li>
-                    <li>SQL</li>
-                    <li>APIs</li>
-                    <li>Express</li>
-                    <li>QA Testing</li>
-                    <li>OOP</li>
-                    <li>Data Structures</li>
-                    <li>Bash/Shell</li>
-                    <li>Git</li>
-                </ul>
-                <h1>Interpersonal Skills:</h1>
-                <ul>
-                    <li>Inclusion</li>
-                    <li>Collaboration</li>
-                    <li>Listening</li>
-                    <li>Brainstorming</li>
-                    <li>Detail Oriented</li>
-                    <li>Time Management</li>
-                    <li>Clear Communication</li>
-                    <li>Encouraging</li>
-                    <li>Patience</li>
-                    <li>Eagerness to Learn</li>
-                </ul>
-            </section>
-         </div>
-    </div>
-</body>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
